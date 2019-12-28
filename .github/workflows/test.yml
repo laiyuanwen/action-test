@@ -30,7 +30,7 @@ jobs:
     steps:
     - name: '构建'
       run: |
-        cat README.md
+        ls
 
   push:
     name: 上传产物
@@ -44,6 +44,6 @@ jobs:
     steps:
     - name: '安装依赖'
       run: |
-        cat .gitignore
+        pwd
 
   
