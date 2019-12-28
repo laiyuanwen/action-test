@@ -1,1 +1,15 @@
 name: GitHub Actions Demo
+
+# 名字
+on: push
+
+# 执行的任务
+jobs: 
+  check:
+    name: 代码检查
+  build:
+    name: 构建
+  push:
+    name: 上传产物
+
+  
