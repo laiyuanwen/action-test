@@ -4,7 +4,7 @@ name: 内容发布
 # 什么时候触发
 on: 
   release:
-    types: [published]
+    types: [published,prereleased]
 
 # 执行的任务
 jobs: 
