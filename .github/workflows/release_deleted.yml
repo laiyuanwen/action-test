@@ -1,10 +1,10 @@
 # 这个检查叫什么名字
-name: 正式发布
+name: 删除发布
 
 # 什么时候触发
 on: 
   release:
-    types: published
+    types: deleted
 
 # 执行的任务
 jobs: 
