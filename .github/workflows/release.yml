@@ -1,0 +1,19 @@
+# 这个检查叫什么名字
+name: 内容发布
+
+# 什么时候触发
+on: 
+  release:
+    types:
+      - created
+
+# 执行的任务
+jobs: 
+  build:
+    name: 构建
+    runs-on: ubuntu-latest
+    # 执行的内容
+    steps:
+    - name: '构建'
+      run: |
+        echo 打包完成
